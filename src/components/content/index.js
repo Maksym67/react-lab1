@@ -10,7 +10,6 @@ function Content () {
 
   const { id: cardId } = useParams();
 
-
   const [selectedTag, setSelectedTag] = useState();
   console.log(`selectedTag:${selectedTag}`);
 

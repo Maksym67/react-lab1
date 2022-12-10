@@ -11,11 +11,7 @@
   color: rgb(74, 73, 73);
 }
 
-/* .card-content-list li {
-  list-style-type: kannada;
-} */
-
-.padding-20 {
-  padding: 20px;
+.padding-40 {
+  padding: 40px;
   box-sizing: border-box;
 }

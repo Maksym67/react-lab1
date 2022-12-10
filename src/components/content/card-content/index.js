@@ -26,7 +26,6 @@ const getListComponent = (elems) => {
  );
 };
 
-
 function CardContent (props) {
  console.log(props);
  return (
@@ -36,6 +35,7 @@ function CardContent (props) {
     style={{ backgroundImage: `url(${props.image})` }}
    ></div>
 
+    <div className="padding-40">
    {
     props.fullPage.map(elem => {
      switch (elem.type) {
@@ -50,18 +50,9 @@ function CardContent (props) {
       }
       default: { }
      }
-
-     // if (elem.type === 'header') {
-     //  return header(elem.text);
-     // } else if (elem.type === 'text') {
-     //  return {};
-     // } else if (elem.type === 'list') {
-     //  return {};
-     // } else {
-     //  return {};
-     // }
     })
    }
+   </div>
 
   </div>
  );
